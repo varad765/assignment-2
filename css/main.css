@@ -1,0 +1,125 @@
+/*
+  Varad Krishna Sudhakaran
+  Student Number: 8979562 
+*/
+
+body{
+    font: 13px georgia;
+    background-color: hsla(0, 0%, 46%, 0.452);
+    width: 80%;
+    max-width: max-content;
+    color: black;
+    margin: auto;
+    padding: auto;
+}
+.easy {
+    border: 4px black solid;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 8px;
+    text-align: center;
+    clear:both;
+    background-image: linear-gradient(#555,#845);
+}
+h1, h2{
+   color: rgb(95, 95, 95);
+   font-variant: small-caps;
+}
+footer p{
+    font-size: 10px;
+    color: rgb(255, 0, 0);
+}
+main{
+    float: left;
+    margin:auto;
+    padding:20px;
+    width: 55%;
+
+}
+.container {
+    display: flex;
+    margin: 10px;
+    background-color: #000000;
+    height: 20px;
+    line-height: 20px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+.container a{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    flex: 100% 1 1;
+}
+
+.container a  :hover{
+color: rgb(0, 255, 42);
+background-color: antiquewhite;
+}
+aside {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 15.5%;
+    background-image: url("../image/d-day-normandy-beyond-commanders-stalin-bcf09616.jpeg");
+    background: size 1px;;
+    clear: both;
+}
+.mainimg{
+    border: 2px black solid;
+}
+figcaption{
+    font-weight: 400;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;
+}
+ul li {
+    list-style-type: none;
+    line-height: 30px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: rgb(47, 0, 255);
+}
+aside a:hover{
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #555;
+}
+.mediapage{
+    padding-left: 140px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 600px;
+}
+.imagegrd{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.imagegrd img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    clip-path: polygon(2.5% 9.8%, 50.9% -55.33%, 95% 56%, 95% 45%, 99% 99%,40% 80.89%, 4% 95%, -3.33% 15.87%);
+}
+input[type=text], 
+input[type=email],
+input[type=submit],
+select, option,textarea{
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+th,td{
+    border: solid black;
+}
+
+
